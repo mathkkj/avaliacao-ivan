@@ -3,15 +3,14 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("background.jpg");
-    /* substitua pelo caminho da sua imagem */
     background-repeat: repeat;
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* estilos para a caixa (container) com borda que envolve todo o conteúdo */
 .container {
     width: 700px;
-    height: 2270px;
+    height: 2800px;
     margin: 50px auto;
     background-color: rgb(255, 255, 255);
     border: 2px solid #000;
@@ -106,25 +105,20 @@ main h2 {
 /* seção de texto principal: organiza o parágrafo e a imagem em layout flexível */
 .textoPrincipal {
     display: flex;
-    /* define o layout flexível */
     gap: 20px;
-    /* espaçamento entre o título e a imagem */
 }
 
 /* estilização do parágrafo na seção de texto principal */
 .textoPrincipal p {
     margin: 5;
     text-align: justify;
-    /* remove margens extras, se houver */
 }
 
 /* estilização da imagem na seção de texto principal */
 .textoPrincipal img {
     width: 250px;
-    /* defina o tamanho desejado para a imagem */
     height: auto;
 }
-
 
 /* estilização para títulos bonitos usados nas seções */
 .tituloBonito {
@@ -133,14 +127,14 @@ main h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: white;
     width: fit-content;
 }
 
-/* texto das musicas */
+/* texto das músicas */
 .musica {
     margin-bottom: 30px;
 }

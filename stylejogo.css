@@ -5,18 +5,16 @@ body {
     background-image: url("background.jpg");
     background-repeat: repeat;
     /* substitua pelo caminho da sua imagem */
-
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* estilos para a caixa (container) com borda que envolve todo o conteúdo */
 .container {
     width: 700px;
-    height: 3800px;
+    height: 4100px;
     margin: 50px auto;
     background-color: rgb(255, 255, 255);
     border: 2px solid #000;
-
 }
 
 /* barra de topo (menu superior) contendo logo, formulário de busca e links de usuário */
@@ -107,19 +105,19 @@ main h2 {
 
 /* seção de texto principal: organiza o parágrafo e a imagem em layout flexível */
 .textoPrincipal {
-    display: flex;           /* define o layout flexível */
-    gap: 20px;               /* espaçamento entre o título e a imagem */
+    display: flex;
+    gap: 20px;
 }
 
 /* estilização do parágrafo na seção de texto principal */
 .textoPrincipal p {
-    margin: 5 ;
-    text-align: justify;              /* remove margens extras, se houver */
+    margin: 5px;
+    text-align: justify;
 }
 
 /* estilização da imagem na seção de texto principal */
 .textoPrincipal img {
-    width: 250px;             /* defina o tamanho desejado para a imagem */
+    width: 250px;
     height: auto;
 }
 
@@ -130,11 +128,52 @@ main h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: white;
     width: fit-content;
+}
+
+/* estilização para a seção da lista de jogos estudados */
+.listaJogos {
+    margin: 20px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.listaJogos h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* estilização da lista */
+.lista {
+    list-style: none; /* Remove a lista padrão para customização */
+    padding: 0;
+    margin: 0;
+}
+
+/* estilização dos itens da lista */
+.lista-item {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+/* estilização para cada jogo */
+.jogo {
+    margin-bottom: 30px;
+}
+
+.jogo h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.jogo h4.subtitulo {
+    margin: 5px 0 10px 0;
+    font-size: 1rem;
+    color: #666;
 }
 
 .imagemTexto {
@@ -154,8 +193,4 @@ main h2 {
     font-size: 0.9rem;
     color: #666;
     margin: 0 0 5px 0;
-}
-
-.jogo {
-    margin-bottom: 30px;
 }
